@@ -1,6 +1,9 @@
-a = 1
-b = 2
-c = 3
-d = 4
-e = 5
-print (a + b)
+# Input two numbers
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Add the numbers
+sum = num1 + num2
+
+# Print the result
+print("The sum of", num1, "and", num2, "is", sum)
